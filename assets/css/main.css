@@ -366,7 +366,7 @@ h6 {
   display: inline-block;
   line-height: 0px;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 .header .header-social-links a:hover {
@@ -420,6 +420,7 @@ h6 {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
+    color: black;
   }
 
   .navbar a:hover,
@@ -574,8 +575,8 @@ h6 {
   }
 
   .mobile-nav-show {
-    color: #fff;
-    font-size: 28px;
+    color: white;
+    font-size: 35px;
     cursor: pointer;
     line-height: 0;
     transition: 0.5s;
