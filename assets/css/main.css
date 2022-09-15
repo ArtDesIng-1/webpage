@@ -1332,11 +1332,7 @@ html {
 
 #myVideo {
   position: absolute;
-  right: 0;
-  /* height: 100vh;
-  width: auto; */
-   top: 0;
-  left: 0;
+  top: 0;
   width: 100% !important;
   height: auto !important;
   left: 0;
@@ -1346,14 +1342,14 @@ html {
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
   #myvideo {
     width: auto !important;
-    height: 100% !important;
+    height: 100vh !important;
   }
 
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   #myvideo {
     width: auto !important;
-    height: 100% !important;
+    height: 100vh !important;
   }
 
 }
