@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+    <title>Art1 - Arte Diseño Ingenio</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <!-- Template Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <div class="video-container">
+      <video autoplay muted loop id="myVideo">
+        <source src="../Art1/assets/img/audio/corleoneconmusica.mp4" type="video/mp4">
+      </video>
+    </div>
+    
+    
+    <!-- <audio src="./assets/img/audio/El Padrino.mp3" autoplay></audio> -->
+    
+    
+    <!-- ======= Header ======= -->
+    <header id="header" class="header d-flex align-items-center fixed-top">
+      <div
+        class="container-fluid d-flex align-items-center justify-content-between"
+      >
+        <a
+          href="index.html"
+          class="logo d-flex align-items-center me-auto me-lg-0"
+        >
+          <!-- Uncomment the line below if you also wish to use an image logo -->
+          <img src="assets/img/logo.png" alt="art1" />
+          <!-- <i class="bi bi-camera"></i> -->
+        </a>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">Nosotros</a></li>
+            <li class="dropdown">
+              <a href="#"
+                ><span>Trabajos</span>
+                <i class="bi bi-chevron-down dropdown-indicator"></i
+              ></a>
+              <ul>
+                <li><a href="gallery-naval.html">Gráfica Naval</a></li>
+                <li><a href="gallery-autos.html">Gráfica Autos</a></li>
+                <li><a href="gallery-motos.html">Gráfica Motos</a></li>
+                <li><a href="gallery-letras.html">Letras Corporeas</a></li>
+                <li><a href="gallery-impresiones.html">Impresiones</a></li>
+              </ul>
+            </li>
+            <li><a href="services.html">Servicios</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <!-- .navbar -->
+
+        <div class="header-social-links">
+          <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+        </div>
+        <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+        <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+      </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- <div class="content">
+      <h1>ART1</h1>
+     
+    </div> -->
+    
+    <main
+      id="main"
+      data-aos="fade"
+      data-aos-delay="1500"
+      style="margin-top: 100px"
+    ></main>
+
+    <!-- ======= Gallery Section ======= -->
+    <!-- <section id="gallery" class="gallery">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        preserveAspectRatio="xMidYMin slice"
+        viewBox="24 105 156 95"
+      >
+        <defs>
+          <style type="text/css">
+            @-webkit-keyframes rotate {
+              0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+              }
+              100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+              }
+            }
+
+            @keyframes rotate {
+              0% {
+                -webkit-transform: rotate(0);
+                transform: rotate(0);
+              }
+              100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+              }
+            }
+
+            .top-outer {
+              -webkit-transform-origin: 73px 69px;
+              transform-origin: 73px 69px;
+              -webkit-animation: rotate 30s linear infinite;
+              animation: rotate 30s linear infinite;
+            }
+
+            .top-inner {
+              -webkit-transform-origin: 73px 69px;
+              transform-origin: 73px 69px;
+              -webkit-animation: rotate 20s linear infinite;
+              animation: rotate 20s linear infinite;
+            }
+
+            .bottom-outer {
+              -webkit-transform-origin: 134px 222px;
+              transform-origin: 134px 222px;
+              -webkit-animation: rotate 30s linear infinite;
+              animation: rotate 30s linear infinite;
+            }
+
+            .bottom-inner {
+              -webkit-transform-origin: 134px 222px;
+              transform-origin: 134px 222px;
+              -webkit-animation: rotate 20s linear infinite;
+              animation: rotate 20s linear infinite;
+            }
+          </style>
+        </defs>
+        <rect x="0" y="0" width="300" height="300" fill="#1B262C" />
+        <path
+          class="top-outer"
+          fill="#2A0944"
+          stroke="#BBE1FA"
+          stroke-width="1"
+          d="M68 1c23,0 67,17 69,39 4,38 5,52 -5,69 -20,36 -68,46 -120,-9 -27,-28 -7,-101 56,-99z"
+        />
+        <path
+          class="top-inner"
+          fill="#0F4C75"
+          stroke="#BBE1FA"
+          stroke-width="1"
+          d="M69 22c33,-7 52,21 54,37 3,26 -1,28 -8,40 -15,25 -48,25 -85,-14 -19,-20 -4,-53 39,-63z"
+        />
+        <path
+          class="bottom-outer"
+          fill="#0F4C75"
+          stroke="#537571"
+          stroke-width="1"
+          d="M158 158c30,13 56,50 44,75 -9,18 -22,46 -42,55 -20,10 -48,2 -73,-19 -29,-25 -27,-55 -9,-79 17,-22 43,-48 80,-32z"
+        />
+        <path
+          class="bottom-inner"
+          fill="#BBE1FA"
+          stroke="#537571"
+          stroke-width="1"
+          d="M136 180c32,-9 45,13 46,29 3,27 8,29 0,42 -14,25 -52,24 -79,0 -21,-18 -2,-61 33,-71z"
+        />
+      </svg>
+
+      
+    </section> -->
+
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <!-- <footer id="footer" class="footer">
+      <div class="container">
+        <div class="copyright">&copy; Copyright Art1 2022</div>
+        <div class="credits"></div>
+      </div>
+    </footer> -->
+    <!-- End Footer -->
+
+    <a
+      href="#"
+      class="scroll-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <div id="preloader">
+      <div class="line"></div>
+    </div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
