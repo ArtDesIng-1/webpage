@@ -25,11 +25,6 @@
 :root {
   scroll-behavior: smooth;
 }
-svg {
-  height: 700px;
-  width: 100%;
-}
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1331,7 +1326,12 @@ html {
 }
 
 #myVideo {
-  position: absolute;
+  position: fixed;
+  min-width: 100%;
+  min-height: 100vh;
+  z-index: 0;
+
+  /* position: absolute; */
   top: 0;
   width: 100% !important;
   height: 100% !important;
