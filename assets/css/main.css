@@ -1334,34 +1334,32 @@ html {
   position: absolute;
   top: 0;
   width: 100% !important;
+  height: 100% !important;
   left: 0;
   object-fit: fill;
-  height: 100vh
+
 }
 
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
   #myvideo {
-    width: 320px;
-    height: auto !important;
+    max-height: 56.25vw !important;
   }
 
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   #myvideo {
-    width: 481px;
-    height: auto !important;
+    max-height: 56.25vw !important;
   }
 
 }
-@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+  #myvideo {
+    max-height: 56.25vw !important;
+  }
+}
 @media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */
-  #myvideo {
-    width: 1920px;
-     height: auto !important;
-  }
-
 }
 
 /* .video-container {
