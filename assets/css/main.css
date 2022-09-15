@@ -1339,17 +1339,18 @@ html {
   object-fit: fill;
   min-height:100%;
 }
+
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */
   #myvideo {
-    width: auto !important;
-    height: 100vh !important;
+    width: 320px;
+    height: 180px;
   }
 
 }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */
   #myvideo {
-    width: auto !important;
-    height: 100vh !important;
+    width: 480px;
+    height: 300px;
   }
 
 }
