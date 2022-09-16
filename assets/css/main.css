@@ -1339,7 +1339,7 @@ html {
 
   width: 100% !important;
   height: 100% !important;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 /* .content {
