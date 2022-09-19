@@ -43,8 +43,9 @@ a {
   text-decoration: none;
 }
 .active{
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  /* background-color: var(--color-primary); */
+  /* color: var(--color-primary); */
+  /* border-radius: 50px; */
 }
 
 a:hover {
