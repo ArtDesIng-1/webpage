@@ -42,6 +42,10 @@ a {
   color: var(--color-primary);
   text-decoration: none;
 }
+.active{
+  background-color: var(--color-primary);
+  color: var(--color-secondary);
+}
 
 a:hover {
   color: #32cf93;
@@ -113,6 +117,7 @@ h6 {
 @media (max-width: 768px) {
   .page-header h2 {
     font-size: 36px;
+    margin-top: 50px;
   }
 }
 
@@ -540,7 +545,7 @@ h6 {
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 400;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgb(255, 255, 255);
     letter-spacing: 1px;
     white-space: nowrap;
     transition: 0.3s;
@@ -551,13 +556,14 @@ h6 {
     font-size: 12px;
     line-height: 0;
     margin-left: 5px;
+    
   }
 
   .navbar a:hover,
   .navbar .active,
   .navbar .active:focus,
   .navbar li:hover > a {
-    color: #fff;
+    font-weight: 600;
   }
 
   .navbar .dropdown ul,
@@ -567,7 +573,6 @@ h6 {
     padding: 10px 0;
     margin: 10px 20px;
     transition: all 0.5s ease-in-out;
-    border: 1px solid black;
   }
 
   .navbar .dropdown > .dropdown-active,
