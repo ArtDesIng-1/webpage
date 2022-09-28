@@ -629,7 +629,11 @@ h6 {
   font-size: 24px;
   color: var(--color-primary);
 }
-
+.about  h1 {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--color-primary);
+}
 .about ul{
   list-style: none;
   padding: 0;
@@ -1372,6 +1376,7 @@ html {
 
  .page-header .swiper-slide img {
   /* opacity: 0.5; */
+  margin-top: 40px;
   transition: 0.3s;
   /* filter: grayscale(100); */
 }
@@ -1381,18 +1386,18 @@ html {
   opacity: 1;
 }
 
-.page-header .swiper-pagination {
+/* .page-header .swiper-pagination {
   margin-top: 20px;
   position: relative;
-}
-
+} */
+/* 
 .page-header .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
-}
+} */
 
-.page-header .swiper-pagination .swiper-pagination-bullet-active {
+/* .page-header .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #37e2d5;
-}
+} */
