@@ -1401,3 +1401,21 @@ html {
 /* .page-header .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #37e2d5;
 } */
+
+/* scrollbar custom */
+::-webkit-scrollbar {
+  width: 8px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #51557e; 
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2c3333 ; 
+}
