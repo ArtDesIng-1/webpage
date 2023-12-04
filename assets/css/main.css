@@ -414,7 +414,7 @@ h6 {
     font-family: var(--font-primary);
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 400;
     color: black;
     white-space: nowrap;
@@ -1431,4 +1431,24 @@ html {
   animation-duration: 2s;
   animation-delay: 0s;
   animation-iteration-count: 100;
+}
+.lead {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #ffffff; /* Color del texto */
+  margin-bottom: 20px; /* Espaciado inferior */
+  line-height: 1.6; /* Altura de línea */
+}
+.highlight {
+  background-color: #ffe564; /* Fondo resaltado */
+  padding: 10px; /* Relleno interno */
+  margin: 15px 0; /* Margen superior e inferior */
+  font-weight: bold; /* Texto en negrita */
+  color: #333; /* Color del texto */
+}
+.signature {
+  margin-top: 20px; /* Margen superior */
+  font-style: italic; /* Texto en cursiva */
+  font-size: 1rem;
+  color: #777; /* Color del texto de la firma */
 }
