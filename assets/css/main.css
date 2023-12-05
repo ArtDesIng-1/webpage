@@ -1121,7 +1121,7 @@ h6 {
   float: left;
   width: 44px;
   height: 44px;
-  background: #222425;
+  background: rgba(255, 255, 255, 0.887);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1135,7 +1135,7 @@ h6 {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgb(255, 255, 255);
 }
 
 .contact .info-item p {
