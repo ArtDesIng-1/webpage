@@ -1,9 +1,5 @@
-
-
-
 document.addEventListener('DOMContentLoaded', () => {
   "use strict";
-
     /**
    * Clients Slider
    */
@@ -192,10 +188,10 @@ document.addEventListener('DOMContentLoaded', () => {
    */
   function aos_init() {
     AOS.init({
-      duration: 1000,
-      easing: 'ease-in-out',
-      once: true,
-      mirror: false
+      duration: 2000,  // Set a longer duration for the animations
+      easing: 'ease-in-out', // Easing function for the animation
+      mirror: true, // Mirror the animation when scrolling back up
+      delay: 100 
     });
   }
   window.addEventListener('load', () => {
