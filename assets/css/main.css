@@ -698,16 +698,24 @@ h6 {
   .text-col2{
     order: 2;
   }
+  .titleLarge{
+    font-size: 50px !important; 
+  }
 }
 
 /* Escritorio grande */
 @media only screen and (min-width: 992px) and (max-width: 1199px){
-
+  .titleLarge{
+    font-size: 60px !important; 
+  }
 }
 /* Media query for desktops extra grande*/
 @media (min-width: 1200px) {
   .about h1 {
-      font-size: 3vw; /* Adjust as needed for desktops */
+      font-size: 2vw; /* Adjust as needed for desktops */
+  }
+  .titleLarge{
+    font-size: 70px !important; 
   }
 }
 
