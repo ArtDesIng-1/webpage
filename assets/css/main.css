@@ -1526,11 +1526,14 @@ html {
   line-height: 1.6; /* Altura de línea */
 }
 .highlight {
-  background-color: #ffe564; /* Fondo resaltado */
+  background-color: black; /* Fondo resaltado */
+  color: white;
   padding: 10px; /* Relleno interno */
   margin: 15px 0; /* Margen superior e inferior */
   font-weight: bold; /* Texto en negrita */
-  color: #333; /* Color del texto */
+   /* Color del texto */
+  border-radius: 50px;
+  border: 10px double #ffe564;
 }
 .signature {
   margin-top: 20px; /* Margen superior */
