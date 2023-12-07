@@ -701,6 +701,12 @@ h6 {
   .titleLarge{
     font-size: 50px !important; 
   }
+  .tk-blobR{
+    margin:50px 150px;
+  }
+  .tk-blobL{
+    margin:50px 150px;
+  }
 }
 
 /* Escritorio grande */
