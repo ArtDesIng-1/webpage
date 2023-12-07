@@ -32,7 +32,7 @@ body {
   font-family: var(--font-default);
   color: var(--color-default);
   background-color: #000;
-
+  overflow: hidden;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -641,12 +641,77 @@ h6 {
 /*--------------------------------------------------------------
 # About Section
 --------------------------------------------------------------*/
-.about  h2 {
-  font-weight: 700;
-  font-size: 24px;
-  color: var(--color-primary);
+.about{
+  margin-top: 150px;
 }
 .about  h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: white;
+}
+/* Media query for mobile screens */
+@media (max-width:575px) {
+  .about h1 {
+      font-size: 6vw; /* Adjust as needed for mobile screens */
+  }
+  .row-with-blobs {
+    flex-direction: column;
+  }
+  .col-lg-6 {
+    width: 100%;
+  }
+  .text-col1 {
+    order: 1; /* Change the order to 1 for the text columns */
+  }
+  .text-col2{
+    order: 2;
+  }
+}
+/* Media query for tablets */
+@media (min-width: 576px) and (max-width:767px) {
+  .about h1 {
+      font-size: 4vw; /* Adjust as needed for tablets */
+  }
+  .row-with-blobs {
+    flex-direction: column;
+  }
+  .col-lg-6 {
+    width: 100%;
+  }
+  .text-col1 {
+    order: 1; /* Change the order to 1 for the text columns */
+  }
+  .text-col2{
+    order: 2;
+  }
+}
+@media (min-width: 768px) and (max-width:991px) {
+  .row-with-blobs {
+    flex-direction: column;
+  }
+  .col-lg-6 {
+    width: 100%;
+  }
+  .text-col1 {
+    order: 1; /* Change the order to 1 for the text columns */
+  }
+  .text-col2{
+    order: 2;
+  }
+}
+
+/* Escritorio grande */
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+/* Media query for desktops extra grande*/
+@media (min-width: 1200px) {
+  .about h1 {
+      font-size: 3vw; /* Adjust as needed for desktops */
+  }
+}
+
+.about  h2 {
   font-weight: 700;
   font-size: 24px;
   color: var(--color-primary);
@@ -1355,6 +1420,7 @@ html {
   margin: 0;
   padding: 0;
   overflow: visible;
+  scroll-behavior: smooth;
 }
 
 #myVideo {
