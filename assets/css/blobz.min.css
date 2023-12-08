@@ -3,14 +3,14 @@
     fill: var(--fill, #7600f8);
     position: relative;
     transform-origin: center;
-    margin:50px 50px;
+    margin: 80px 100px;
 }
 .tk-blobL {
     animation: blob-turnL var(--time, 30s) linear infinite;
     fill: var(--fill, #7600f8);
     position: relative;
     transform-origin: center;
-    margin: 50px 50px;
+    margin: 80px 100px;
 }
 .tk-blob svg {
     animation: blob-skew calc(var(--time, 30s) * 0.5) linear 0s infinite;
