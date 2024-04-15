@@ -198,4 +198,10 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
+  var currentYear = new Date().getFullYear();
+  var copyrightElement = document.getElementById("copyright");
+  if (copyrightElement) {
+    copyrightElement.innerHTML = currentYear + " © Copyright <strong><span>ART1</span></strong>. Todos los derechos reservados. Argentina, Buenos Aires.";
+  }
+
 });
