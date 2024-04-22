@@ -16,9 +16,12 @@
 
 /* Colors */
 :root {
-  --color-default: white;
+  --color-white: white;
+  --color-black: #000;
   --color-primary: #51557e;
   --color-secondary: #2c3333;
+  --color-secondaryB: #2e2f36;
+  --color-alternative: #27a776cc;
 }
 
 /* Smooth scroll behavior */
@@ -50,7 +53,7 @@ a {
 } */
 
 a:hover {
-  color: #32cf93;
+  color: var(--color-alternative);
   text-decoration: none;
 }
 
@@ -61,6 +64,7 @@ h4,
 h5,
 h6 {
   font-family: var(--font-primary);
+  color: var(--color-white);
 }
 
 /*--------------------------------------------------------------
@@ -386,7 +390,7 @@ h6 {
 }
 
 .header .header-social-links a {
-  color: rgba(255, 255, 255, 0.5);
+  color: var(--color-white);
   padding-left: 15px;
   display: inline-block;
   line-height: 0px;
@@ -1137,6 +1141,7 @@ h6 {
   line-height: 24px;
   font-size: 14px;
   margin: 15px 0 0 0;
+  color: var(--color-white);
 }
 
 .services .service-item:hover:before {
@@ -1186,6 +1191,7 @@ h6 {
 }
 .pricing p{
   font-size: smaller;
+  color: var(--color-white);
 }
 /*--------------------------------------------------------------
 # Contact Section
@@ -1501,20 +1507,25 @@ html {
 
 /* scrollbar custom */
 ::-webkit-scrollbar {
-  width: 8px;
+  background: #000;
+  border-left: 1px solid #000;
 }
 /* Track */
 ::-webkit-scrollbar-track {
-  background: transparent;
+  background: #000;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #51557e; 
+  background-color: var(--color-primary);
+  border-radius: 8px;
+}
+::-webkit-scrollbar-corner {
+  background: #000;
 }
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #2c3333 ; 
+  background: var(--color-alternative) ; 
 }
 
 .wasap {
